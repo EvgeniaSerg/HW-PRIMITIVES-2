@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int initial = 100;
-        int replenishment = 1100;
-        int bonus;
+        int initial = 100; // начальный счет
+        int replenishment = 1100; // сумма пополнения
+        int bonus; // количество бонусных рублей
 
         if (replenishment >= 1000) {
             bonus = replenishment / 100;

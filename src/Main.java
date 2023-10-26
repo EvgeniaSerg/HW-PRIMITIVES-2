@@ -10,12 +10,10 @@ public class Main {
         } else {
             bonus = 0;
         }
-            int result = initial + replenishment + bonus;
+        int result = initial + replenishment + bonus;
 
-            System.out.println("Бонусные рубли: " + bonus);
-            System.out.println("Итоговый счет: " + result);
-
-
+        System.out.println("Бонусные рубли: " + bonus);
+        System.out.println("Итоговый счет: " + result);
 
 
     }
